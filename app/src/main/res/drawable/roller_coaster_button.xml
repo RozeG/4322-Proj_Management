@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Defines when button is clicked -->
+    <item android:drawable="@drawable/roller_coaster_dark"
+        android:state_pressed="true"/>
+    <!-- Defines when button is focused -->
+    <item android:drawable="@drawable/roller_coaster_dark"
+        android:state_pressed="true"/>
+    <item android:drawable="@drawable/roller_coaster1"/>
+
 </selector>

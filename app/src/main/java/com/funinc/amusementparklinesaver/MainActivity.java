@@ -15,10 +15,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.funinc.amusementparklinesaver.activity.ReserveRide;
+import com.funinc.amusementparklinesaver.activity.SignInActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    //Upon project build this function is the first one to be called
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,15 +28,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        /*fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
-
+        // calles the drawer menu
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -83,8 +77,9 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the home action
+        if (id == R.id.nav_sign_in) {
+            Intent signIn = new Intent(MainActivity.this, SignInActivity.class);
+            startActivity(signIn);
         } else if (id == R.id.nav_reserve_ride) {
             Intent rideIntent = new Intent(MainActivity.this, ReserveRide.class);
             startActivity(rideIntent);

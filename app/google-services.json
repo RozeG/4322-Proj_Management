@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "707033011055",
+    "firebase_url": "https://amusementparklinesaver.firebaseio.com",
+    "project_id": "amusementparklinesaver",
+    "storage_bucket": "amusementparklinesaver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707033011055:android:8632b123fbd37a7c",
+        "android_client_info": {
+          "package_name": "com.funinc.amusementparklinesaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707033011055-8rb7ik6tkecn39itanqlag0669cq896l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.funinc.amusementparklinesaver",
+            "certificate_hash": "C76C87D05B9BB131623A82D95A38910760EC5A08"
+          }
+        },
+        {
+          "client_id": "707033011055-uk1plps6hsd9ic9366pqml4cnpfbv9f2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "707033011055-d3k2hvgn796guuug3eje901d2ukohrlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCex-ecLXwMFd3liJkcsaZoFwQXx33EzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707033011055-uk1plps6hsd9ic9366pqml4cnpfbv9f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
